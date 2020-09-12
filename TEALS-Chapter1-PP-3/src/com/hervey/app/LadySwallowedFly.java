@@ -26,33 +26,99 @@ public class LadySwallowedFly {
 	static String hogDog = "What a hog, to swallow a dog!";
 	static String ladySwallowed = "There was an old lady who swallowed a";
 	static String dontFly = "I don't know why she swallowed a fly - ";
-	static String think = " I think she'll die!";
-	static String perhaps = " Perhaps she'll die!";
+	static String think = "I think she'll die!";
+	static String perhaps = "Perhaps she'll die!";
 
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println(absurdBird);
+		//System.out.println(absurdBird);
+		
+		produceOutputLyrics();
 
 	}
+
+
+
+
+	private static void produceOutputLyrics() {
+		
+		produceLadySwallowedFly();
+		produceDontFlyThink();
+		produceLadySwallowedSpider();
+		produceWriggled();
+		produceStanzaSpacer();
+		produceSpiderFly();
+		produceDontFlyPerhaps();
+		
+		
+		
+	}
+
+
+
+
+	private static void produceDontFlyPerhaps() {
+		String dontFlyPerhaps = dontFly + perhaps;
+		System.out.println(dontFlyPerhaps);
+		
+	}
+
+
+
+
+	private static void produceSpiderFly() {
+		System.out.println(spiderFly);
+		
+	}
+
+
+
+
+	private static void produceStanzaSpacer() {
+		System.out.println();
+		
+	}
+
+
+
+
+	private static void produceWriggled() {
+		System.out.println(wriggled);
+		
+	}
+
+
+
+
+	private static void produceLadySwallowedSpider() {
+		String ladySwallowedFly = ladySwallowed + " spider" + ";";
+		System.out.println(ladySwallowedFly);
+		
+	}
+
+
+
+
+	private static void produceDontFlyThink() {
+		String dontFlyThink = dontFly + think;
+		System.out.println(dontFlyThink);
+		
+	}
+
+
+
+
+	private static void produceLadySwallowedFly() {
+		String ladySwallowedFly = ladySwallowed + " fly" + ";";
+		System.out.println(ladySwallowedFly);
+		
+	}
+	
+	
+	
+	
+	
 
 }

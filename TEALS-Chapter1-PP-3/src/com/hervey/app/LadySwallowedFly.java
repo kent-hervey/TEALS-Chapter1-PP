@@ -4,10 +4,6 @@ public class LadySwallowedFly {
 
 	static String absurdBird = "How absurd to swallow a bird!";
 	static String howCow = "I don't know how she swallowed a cow!";
-	// static String dondontFly + think = "I don't know why she swallowed a fly - I
-	// think she'll die!";
-	// static String dontFly + perhaps = "I don't know why she swallowed a fly -
-	// Perhaps she'll die!";
 	static String imagineCat = "Imagine that! She swallowed a cat!";
 	static String throatGoat = "She just opened her throat and swallowed a goat!";
 	static String birdSpider = "She swallowed the bird to catch the spider;";
@@ -17,14 +13,6 @@ public class LadySwallowedFly {
 	static String goatDog = "She swallowed the goat to catch the dog,";
 	static String spiderFly = "She swallowed the spider to catch the fly;";
 	static String wriggled = "That wriggled and jiggled and tickled inside her!";
-	//	static String ladySwallowed + dog = "There was an old lady that swallowed a dog;";
-	//	static String ladySwallowed + bird = "There was an old lady who swallowed a bird;";
-	//	static String ladySwallowed + cat = "There was an old lady who swallowed a cat;";
-	//	static String ladySwallowed + cow = "There was an old lady who swallowed a cow;";
-	//	static String ladySwallowed + fly = "There was an old lady who swallowed a fly.";
-	//	static String ladySwallowed + goat = "There was an old lady who swallowed a goat;";
-	//	static String ladySwallowed + horse = "There was an old lady who swallowed a horse;";
-	//	static String ladySwallowed + spider = "There was an old lady who swallowed a spider;";
 	static String hogDog = "What a hog, to swallow a dog!";
 	static String ladySwallowed = "There was an old lady who swallowed a";
 	static String dontFly = "I don't know why she swallowed a fly - ";
@@ -45,13 +33,13 @@ public class LadySwallowedFly {
 		produceLadySwallowedAnimal("spider");
 		produceWriggled();
 		produceStanzaSpacer();
-		
+
 		produceSpiderFly();
 		produceDontFlyPerhaps();
 		produceLadySwallowedAnimal("bird");
 		produceAbsurdBirdd();
 		produceStanzaSpacer();
-		
+
 		produceBirdSpider();
 		produceWriggled();
 		produceSpiderFly();
@@ -59,7 +47,7 @@ public class LadySwallowedFly {
 		produceLadySwallowedAnimal("cat");
 		produceImagineCat();
 		produceStanzaSpacer();
-		
+
 		produceCatBird();
 		produceBirdSpider();
 		produceWriggled();
@@ -68,7 +56,7 @@ public class LadySwallowedFly {
 		produceLadySwallowedAnimal("dog");
 		produceHogDog();
 		produceStanzaSpacer();
-		
+
 		produceDogCat();
 		produceCatBird();
 		produceBirdSpider();
@@ -78,7 +66,7 @@ public class LadySwallowedFly {
 		produceLadySwallowedAnimal("goat");
 		produceThroatGoat();
 		produceStanzaSpacer();
-		
+
 		produceGoatDog();
 		produceDogCat();
 		produceCatBird();
@@ -89,7 +77,7 @@ public class LadySwallowedFly {
 		produceLadySwallowedAnimal("cow");
 		produceHowCow();
 		produceStanzaSpacer();
-		
+
 		produceCowGoat();
 		produceGoatDog();
 		produceDogCat();
@@ -100,68 +88,64 @@ public class LadySwallowedFly {
 		produceDontFlyThink();
 		produceLadySwallowedAnimal("horse");
 		produceStanzaSpacer();
-		
+
 		System.out.println("...She died, of course!");
-		
-		
-		
-		
+
 	}
 
 	private static void produceGoatDog() {
 		System.out.println(goatDog);
-		
+
 	}
 
 	private static void produceCowGoat() {
 		System.out.println(cowGoat);
-		
+
 	}
 
 	private static void produceHowCow() {
 		System.out.println(howCow);
-		
+
 	}
 
 	private static void produceThroatGoat() {
 		System.out.println(throatGoat);
-		
+
 	}
 
 	private static void produceDogCat() {
 		System.out.println(dogCat);
-		
+
 	}
 
 	private static void produceHogDog() {
 		System.out.println(hogDog);
-		
+
 	}
 
 	private static void produceCatBird() {
 		System.out.println(catBird);
-		
-		
+
 	}
 
 	private static void produceImagineCat() {
 		System.out.println(imagineCat);
-		
+
 	}
 
 	private static void produceBirdSpider() {
 		System.out.println(birdSpider);
-		
+
 	}
 
 	private static void produceAbsurdBirdd() {
 		System.out.println(absurdBird);
-		
+
 	}
 
 	private static void produceLadySwallwedBird() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	private static void produceDontFlyPerhaps() {
@@ -186,7 +170,7 @@ public class LadySwallowedFly {
 	}
 
 	private static void produceLadySwallowedAnimal(String animal) {
-		String ladySwallowedFly = ladySwallowed + " " + animal  + ";";
+		String ladySwallowedFly = ladySwallowed + " " + animal + ";";
 		System.out.println(ladySwallowedFly);
 
 	}
@@ -196,7 +180,5 @@ public class LadySwallowedFly {
 		System.out.println(dontFlyThink);
 
 	}
-
-
 
 }

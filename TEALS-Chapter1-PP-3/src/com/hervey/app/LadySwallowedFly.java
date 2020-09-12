@@ -9,7 +9,7 @@ public class LadySwallowedFly {
 	// static String dontFly + perhaps = "I don't know why she swallowed a fly -
 	// Perhaps she'll die!";
 	static String imagineCat = "Imagine that! She swallowed a cat!";
-	static String throatGoad = "She just opened her throat and swallowed a goat!";
+	static String throatGoat = "She just opened her throat and swallowed a goat!";
 	static String birdSpider = "She swallowed the bird to catch the spider;";
 	static String catBird = "She swallowed the cat to catch the bird,";
 	static String cowGoat = "She swallowed the cow to catch the goat,";
@@ -69,7 +69,29 @@ public class LadySwallowedFly {
 		produceHogDog();
 		produceStanzaSpacer();
 		
+		produceDogCat();
+		produceCatBird();
+		produceBirdSpider();
+		produceWriggled();
+		produceSpiderFly();
+		produceDontFlyThink();
+		produceLadySwallowedAnimal("goat");
+		produceThroatGoat();
+		produceStanzaSpacer();
 		
+		
+		
+		
+		
+	}
+
+	private static void produceThroatGoat() {
+		System.out.println(throatGoat);
+		
+	}
+
+	private static void produceDogCat() {
+		System.out.println(dogCat);
 		
 	}
 

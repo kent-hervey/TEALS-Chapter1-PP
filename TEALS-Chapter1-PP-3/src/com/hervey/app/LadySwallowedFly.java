@@ -79,6 +79,7 @@ public class LadySwallowedFly {
 		produceThroatGoat();
 		produceStanzaSpacer();
 		
+		produceGoatDog();
 		produceDogCat();
 		produceCatBird();
 		produceBirdSpider();
@@ -89,9 +90,31 @@ public class LadySwallowedFly {
 		produceHowCow();
 		produceStanzaSpacer();
 		
+		produceCowGoat();
+		produceGoatDog();
+		produceDogCat();
+		produceCatBird();
+		produceBirdSpider();
+		produceWriggled();
+		produceSpiderFly();
+		produceDontFlyThink();
+		produceLadySwallowedAnimal("horse");
+		produceStanzaSpacer();
+		
+		System.out.println("...She died, of course!");
 		
 		
 		
+		
+	}
+
+	private static void produceGoatDog() {
+		System.out.println(goatDog);
+		
+	}
+
+	private static void produceCowGoat() {
+		System.out.println(cowGoat);
 		
 	}
 

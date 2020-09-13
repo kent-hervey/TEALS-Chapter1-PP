@@ -13,12 +13,32 @@ Each Java Project is a different project number from the book, such as #1 Missis
 		System.out.println(ladySwallowedFly);
 	}
 ```
-         Second version, in order to stay within bounds of chapter one does not have methods with arguments
+    Second version, in order to stay within bounds of chapter one does not have methods with arguments
   
 <p>&nbsp;</p>
 
-<p>&nbsp;</p>
+##Second Version had the below using String objects/variables as below:
+```
+	static String absurdBird = "How absurd to swallow a bird!";
+	static String howCow = "I don't know how she swallowed a cow!";
+	static String imagineCat = "Imagine that! She swallowed a cat!";
+```
+    Third version, in order to stay within bounds of chapter one does not have methods with arguments.  Such as below:
+```
+	public static void printLnAbsurdBird() {
+		System.out.println("How absurd to swallow a bird!");
+	}
 
+	public static void printLnHowCow() {
+		System.out.println("I don't know how she swallowed a cow!");
+	}
+
+	public static void printLnImagineCat() {
+		System.out.println("Imagine that! She swallowed a cat!");
+	}
+```
+
+  
 <p>&nbsp;</p>
 
 

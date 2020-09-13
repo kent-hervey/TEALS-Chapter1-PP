@@ -34,7 +34,17 @@ public class Mississippi {
 	}
 
 	private static void drawP() {
-		// TODO Auto-generated method stub
+		// will be built from seven rows of chars
+		// the rows of chars are numbered from the bottom
+		// each I is seven char wide
+
+		System.out.println("PPPPPP "); // 7
+		System.out.println("P     P"); // 6
+		System.out.println("P     P"); // 5
+		System.out.println("PPPPPP "); // 4
+		System.out.println("P      "); // 3
+		System.out.println("P      "); // 2
+		System.out.println("P      "); // 1
 		
 	}
 

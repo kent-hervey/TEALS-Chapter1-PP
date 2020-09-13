@@ -2,28 +2,8 @@ package com.hervey.app;
 
 public class LadySwallowedFly {
 
-	static String absurdBird = "How absurd to swallow a bird!";
-	static String howCow = "I don't know how she swallowed a cow!";
-	static String imagineCat = "Imagine that! She swallowed a cat!";
-	static String throatGoat = "She just opened her throat and swallowed a goat!";
-	static String birdSpider = "She swallowed the bird to catch the spider;";
-	static String catBird = "She swallowed the cat to catch the bird,";
-	static String cowGoat = "She swallowed the cow to catch the goat,";
-	static String dogCat = "She swallowed the dog to catch the cat,";
-	static String goatDog = "She swallowed the goat to catch the dog,";
-	static String spiderFly = "She swallowed the spider to catch the fly;";
-	static String wriggled = "That wriggled and jiggled and tickled inside her!";
-	static String hogDog = "What a hog, to swallow a dog!";
-	static String ladySwallowed = "There was an old lady who swallowed a";
-	static String dontFly = "I don't know why she swallowed a fly - ";
-	static String think = "I think she'll die!";
-	static String perhaps = "Perhaps she'll die!";
-
 	public static void main(String[] args) {
-		// System.out.println(absurdBird);
-
 		produceOutputLyrics();
-
 	}
 
 	private static void produceOutputLyrics() {
@@ -94,64 +74,54 @@ public class LadySwallowedFly {
 	}
 
 	private static void produceGoatDog() {
-		System.out.println(goatDog);
+		printLnGoatDog();
 
 	}
 
 	private static void produceCowGoat() {
-		System.out.println(cowGoat);
-
+		printLnCowGoat();
 	}
 
 	private static void produceHowCow() {
-		System.out.println(howCow);
-
+		printLnHowCow();
 	}
 
 	private static void produceThroatGoat() {
-		System.out.println(throatGoat);
-
+		printLnThroatGoat();
 	}
 
 	private static void produceDogCat() {
-		System.out.println(dogCat);
-
+		printLnDogCat();
 	}
 
 	private static void produceHogDog() {
-		System.out.println(hogDog);
-
+		printLnHogDog();
 	}
 
 	private static void produceCatBird() {
-		System.out.println(catBird);
-
+		printLnCatBird();
 	}
 
 	private static void produceImagineCat() {
-		System.out.println(imagineCat);
-
+		printLnImagineCat();
 	}
 
 	private static void produceBirdSpider() {
-		System.out.println(birdSpider);
-
+		printLnBirdSpider();
 	}
 
 	private static void produceAbsurdBird() {
-		System.out.println(absurdBird);
-
+		printLnAbsurdBird();
 	}
 
 	private static void produceDontFlyPerhaps() {
-		String dontFlyPerhaps = dontFly + perhaps;
-		System.out.println(dontFlyPerhaps);
+		printDontFly();
+		printLnPerhaps();
 
 	}
 
 	private static void produceSpiderFly() {
-		System.out.println(spiderFly);
-
+		printLnSpiderFly();
 	}
 
 	private static void produceStanzaSpacer() {
@@ -160,54 +130,132 @@ public class LadySwallowedFly {
 	}
 
 	private static void produceWriggled() {
-		System.out.println(wriggled);
-
+		printLnWriggled();
 	}
 
 	private static void produceDontFlyThink() {
-		String dontFlyThink = dontFly + think;
-		System.out.println(dontFlyThink);
+		printDontFly();
+		printLnThink();
 
 	}
 
 	private static void produceLadySwallowedBird() {
-		String ladySwallowedFly = ladySwallowed + " " + "bird" + ";";
-		System.out.println(ladySwallowedFly);
+		printLadySwallowed();
+		System.out.println(" " + "bird" + ";");
 	}
 
 	private static void produceLadySwallowedCat() {
-		String ladySwallowedFly = ladySwallowed + " " + "cat" + ";";
-		System.out.println(ladySwallowedFly);
+		printLadySwallowed();
+		System.out.println(" " + "cat" + ";");
 	}
 
 	private static void produceLadySwallowedCow() {
-		String ladySwallowedFly = ladySwallowed + " " + "cow" + ";";
-		System.out.println(ladySwallowedFly);
+		printLadySwallowed();
+		System.out.println(" " + "cow" + ";");
 	}
 
 	private static void produceLadySwallowedDog() {
-		String ladySwallowedFly = ladySwallowed + " " + "dog" + ";";
-		System.out.println(ladySwallowedFly);
+		printLadySwallowed();
+		System.out.println(" " + "dog" + ";");
 	}
 
 	private static void produceLadySwallowedFly() {
-		String ladySwallowedFly = ladySwallowed + " " + "fly" + ";";
-		System.out.println(ladySwallowedFly);
+		printLadySwallowed();
+		System.out.println(" " + "fly" + ";");
 	}
 
 	private static void produceLadySwallowedGoat() {
-		String ladySwallowedFly = ladySwallowed + " " + "goat" + ";";
-		System.out.println(ladySwallowedFly);
+		printLadySwallowed();
+		System.out.println(" " + "goat" + ";");
 	}
 
 	private static void produceLadySwallowedHorse() {
-		String ladySwallowedFly = ladySwallowed + " " + "horse" + ";";
-		System.out.println(ladySwallowedFly);
+		printLadySwallowed();
+		System.out.println(" " + "horse" + ";");
 	}
 
 	private static void produceLadySwallowedSpider() {
-		String ladySwallowedFly = ladySwallowed + " " + "spider" + ";";
-		System.out.println(ladySwallowedFly);
+		printLadySwallowed();
+		System.out.println(" " + "spider" + ";");
 	}
 
+	
+	//====
+	public static void printLnAbsurdBird() {
+		System.out.println("How absurd to swallow a bird!");
+	}
+
+	public static void printLnHowCow() {
+		System.out.println("I don't know how she swallowed a cow!");
+	}
+
+	public static void printLnImagineCat() {
+		System.out.println("Imagine that! She swallowed a cat!");
+	}
+
+	public static void printLnThroatGoat() {
+		System.out.println("She just opened her throat and swallowed a goat!");
+	}
+
+	public static void printLnBirdSpider() {
+		System.out.println("She swallowed the bird to catch the spider;");
+	}
+
+	public static void printLnCatBird() {
+		System.out.println("She swallowed the cat to catch the bird,");
+	}
+
+	public static void printLnCowGoat() {
+		System.out.println("She swallowed the cow to catch the goat,");
+	}
+
+	public static void printLnDogCat() {
+		System.out.println("She swallowed the dog to catch the cat,");
+	}
+
+	public static void printLnGoatDog() {
+		System.out.println("She swallowed the goat to catch the dog,");
+	}
+
+	public static void printLnSpiderFly() {
+		System.out.println("She swallowed the spider to catch the fly;");
+	}
+
+	public static void printLnWriggled() {
+		System.out.println("That wriggled and jiggled and tickled inside her!");
+	}
+
+	public static void printLnHogDog() {
+		System.out.println("What a hog, to swallow a dog!");
+	}
+
+	public static void printLadySwallowed() {
+		System.out.print("There was an old lady who swallowed a");
+	}
+
+	public static void printDontFly() {
+		System.out.print("I don't know why she swallowed a fly - ");
+	}
+
+	public static void printLnThink() {
+		System.out.println("I think she'll die!");
+	}
+
+	public static void printLnPerhaps() {
+		System.out.println("Perhaps she'll die!");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
